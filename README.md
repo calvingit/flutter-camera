@@ -1,3 +1,13 @@
+> This fork fixed the issue https://github.com/flutter/flutter/issues/57831 on iOS platform
+>
+>  How to use:
+> ```yaml
+> dependency_overrides:
+>  camera:
+>    git:
+>      url: 'https://github.com/calvingit/flutter-camera.git'
+>      ref: 'master'
+> ```
 # Camera Plugin
 
 [![pub package](https://img.shields.io/pub/v/camera.svg)](https://pub.dev/packages/camera)
